@@ -32,6 +32,6 @@ public class Task {
     public void displayTaskInfo() {
         String status = taskStatus ? "Complete" : "Not Completed";
 
-        System.out.println("Task Description: " + taskDescription + "Status: " + status);
+        System.out.println("Task Description: " + taskDescription + " - Status: " + status);
     }
 }
